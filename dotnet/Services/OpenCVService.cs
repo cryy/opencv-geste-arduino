@@ -103,7 +103,7 @@ namespace Geste.Services
             Cv2.ImShow("REZULTAT", sideBySide);
         }
 
-        // uzimanje slike iz feeda WaitKey delayem od 20m
+        // uzimanje slike iz feeda WaitKey delayem od 20ms
         private void GrabFeed(Action<Mat> handleFrame)
         {
             var capture = new VideoCapture(_configService.Config.VideoSource);
