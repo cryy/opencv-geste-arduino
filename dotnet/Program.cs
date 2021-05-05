@@ -107,6 +107,7 @@ namespace Geste
 
 
             var arduinoService = _services.GetService<ArduinoService>();
+            // ako je inicijalizacija uspješna, nastavljamo sa izvedbom programa
             if (await arduinoService.InitializeAsync())
             {
                 arduinoService.Run();
