@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
-    "port": "COM3",
+    "port": "COM6",
     "programmer": "AVRISP mkII",
-    "sketch": "arduino\\Geste.ino"
+    "sketch": "arduino\\Geste\\Geste.ino"
 }

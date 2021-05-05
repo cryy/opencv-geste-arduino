@@ -1,3 +1,5 @@
 enum OPCODE {
-  HELLO = 0  
+  HELLO = 0,
+  ARDUINO_MESSAGE = 1,
+  HAND_UPDATE = 2  
 };
