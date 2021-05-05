@@ -135,8 +135,8 @@ namespace Geste.Services
             return threshold;
         }
 
-        // radimo konturu i uzimamo silazni poredak zato što opencv zahtjeva
-        // takav poredak
+        // radimo konturu i uzimamo silazni poredak prema veličini konture
+        // te uzimamo prvu konturu u toj kolekciji (najveća kontura)
         private Point[] CreateHandContour(Mat mask)
         {
             mask.FindContours(out var contours, out var hierarchyIndices, RetrievalModes.External,
