@@ -4,7 +4,7 @@ using Geste.Attributes;
 using Geste.Configuration;
 using Serilog.Core;
 
-namespace BoggedFinanceBot
+namespace Geste
 {
     public static class Extensions
     {
